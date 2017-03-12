@@ -1,0 +1,23 @@
+{
+  "name": "webpack-nexe",
+  "version": "1.0.0",
+  "description": "Webpack plugin to build executables from generated bundles using nexe library",
+  "main": "dist/webpack-nexe.js",
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "fs-extra": "^2.0.0",
+    "require-analyzer": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0"
+  },
+  "scripts": {
+    "build": "babel webpack-nexe.js --out-file dist/webpack-nexe.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matteo Lora <matteo.lora@me.com>",
+  "license": "MIT"
+}
